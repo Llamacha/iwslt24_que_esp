@@ -17,22 +17,22 @@ This is a Python script for evaluating the performance of speech translation sys
 
 ## Installation
 
-1. Clone the repository: git clone https://github.com/your-username/speech-translation-evaluation-script.git
-2. Navigate to the repository directory: cd speech-translation-evaluation-script
+1. Clone the repository: git clone https://github.com/Llamacha/iwslt23_que_esp
+2. Navigate to the repository directory: cd iwst23_que_esp
 3. Install the dependencies: pip install -r requirements.txt
 
 ## Usage
 
-Markup : 1. Ensure that your reference file and hypothesis files are named correctly.
-         2. Open a terminal and navigate to the repository directory.
-         3. Run the script with the following command:
+1. Ensure that your reference file and hypothesis files are named correctly.
+2. Open a terminal and navigate to the repository directory.
+3. Run the script with the following command:
 
 ```
 python evaluation.py --ref /path/to/reference/file --phyp /path/to/hypotheses/folder
 ```
 
-		 4. Wait for the script to finish processing all the hypothesis files.
-         5. Find the results in a TSV file named results.tsv in the hypothesis folder.
+4. Wait for the script to finish processing all the hypothesis files.
+5. Find the results in a TSV file named results.tsv in the hypothesis folder.
 
 
 ## Reference File
