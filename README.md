@@ -10,10 +10,10 @@ This is a Python script for evaluating the performance of speech translation sys
 
 ## Requirements
 
-Markup : *Python 3.x
-		 *pandas
-         *bleu_scorer
-         *chrF_scorer
+- Python 3.x
+- pandas
+- bleu_scorer
+- chrF_scorer
 
 ## Installation
 
