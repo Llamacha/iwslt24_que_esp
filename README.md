@@ -17,9 +17,9 @@ This is a Python script for evaluating the performance of speech translation sys
 
 ## Installation
 
-Markup : 1. Clone the repository: git clone https://github.com/your-username/speech-translation-evaluation-script.git
-	     2. Navigate to the repository directory: cd speech-translation-evaluation-script
-         3. Install the dependencies: pip install -r requirements.txt
+1. Clone the repository: git clone https://github.com/your-username/speech-translation-evaluation-script.git
+2. Navigate to the repository directory: cd speech-translation-evaluation-script
+3. Install the dependencies: pip install -r requirements.txt
 
 ## Usage
 
