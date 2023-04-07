@@ -10,7 +10,7 @@ This repo contains the evaluation scripts needed to replicate the IWSLT 2023 spe
 pip install -r requirements.txt
 ``` 
 
-## Scripts for BLEU evaluation
+## Scripts for BLEU and CHRF evaluation
 
 We will use <a href="https://github.com/mjpost/sacrebleu">SacreBLEU</a> for evaluation of speech translation output. The following shows how we would compute (lowercased) BLEU on a detokenized example output:
 
@@ -34,16 +34,4 @@ This should give:
 }
 ```
 
-## Scripts for WER/CER evaluation
-
-We'll compute WER and CER for ASR outputs as follows: 
-```
-python scripts/wer_cer.py --hyp files/que_esp.test.txt --ref files/example.que.txt
-```
-
-This should give something like the following:
-```
-CER on original hypothesis Error_Rate= 15.3
-WER on original hypothesis Error_Rate= 22.7
-```
 
