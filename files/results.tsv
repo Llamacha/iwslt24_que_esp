@@ -1,2 +1,0 @@
-Participant	Condition	Type	BLEU	chrF
-your_team_name	constrained	primary	BLEU = 100.00 100.0/100.0/100.0/100.0 (BP = 1.000 ratio = 1.000 hyp_len = 12 ref_len = 12)	100.00 (nc = 6 nw = 2 beta = 2.0)
