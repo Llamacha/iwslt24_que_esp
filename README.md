@@ -47,11 +47,11 @@ The hypotheses folder should contain one or more plain text files, each containi
 
 The output file results.tsv contains the following columns:
 
-Markup : *Participant: the unique identifier for each team that generated the translations.
-         *Condition: the condition under which the translations were generated (constrained or unconstrained).
-         *Type: the name of the translation type (primary, contrastive1, or contrastive2).
-         *BLEU: the BLEU score for each set of translations.
-         *chrF: the chrF score for each set of translations. 
+- Participant: the unique identifier for each team that generated the translations.
+- Condition: the condition under which the translations were generated (constrained or unconstrained).
+- Type: the name of the translation type (primary, contrastive1, or contrastive2).
+- BLEU: the BLEU score for each set of translations.
+- chrF: the chrF score for each set of translations. 
 
 ## License
 
