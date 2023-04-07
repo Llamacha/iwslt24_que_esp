@@ -28,7 +28,7 @@ This is a Python script for evaluating the performance of speech translation sys
 3. Run the script with the following command:
 
 ```
-python evaluation.py --ref /path/to/reference/file --phyp /path/to/hypotheses/folder
+python main.py --ref /path/to/reference/file --phyp /path/to/hypotheses/folder
 ```
 
 4. Wait for the script to finish processing all the hypothesis files.
