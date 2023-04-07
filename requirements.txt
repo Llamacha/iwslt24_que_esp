@@ -1,3 +1,2 @@
-jiwer
 sacrebleu
-evaluate
+pandas
