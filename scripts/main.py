@@ -59,14 +59,17 @@ def main():
         hypotheses = read_hypotheses_file(os.path.join(args.phyp, file))
         references = read_references_file(args.ref)
         bleu_score = calculate_bleu(hypotheses, references)
-
-        # chrF
-        with open(args.ref, "r") as ref_file:
-            with open(os.path.join(args.phyp, file), "r") as hyp_file:
-                sentence_level_scores = None
-                totalF, averageTotalF, totalPrec, totalRec = computeChrF(ref_file, hyp_file, 2, 6, 2.0, sentence_level_scores)
-        chrf_score = f"{totalF * 100:.2f} (nc = 6 nw = 2 beta = 2.0)"
-
+        bleu_score = str(bleu_score)
+        bleu_result = float(bleu_score[7:13])
+        if bleu_result < 5: 
+            # chrF
+            with open(args.ref, "r") as ref_file:
+                with open(os.path.join(args.phyp, file), "r") as hyp_file:
+                    sentence_level_scores = None
+                    totalF, averageTotalF, totalPrec, totalRec = computeChrF(ref_file, hyp_file, 2, 6, 2.0, sentence_level_scores)
+            chrf_score = f"{totalF * 100:.2f} (nc = 6 nw = 2 beta = 2.0)"
+        else:
+            chrf_score = False
         # store results
         parts = file.split(".")
         team.append(parts[0])
