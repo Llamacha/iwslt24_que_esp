@@ -17,9 +17,15 @@ This is a Python script for evaluating the performance of speech translation sys
 
 ## Installation
 
-1. Clone the repository: git clone https://github.com/Llamacha/iwslt24_que_esp
-2. Navigate to the repository directory: cd iwslt24_que_esp
-3. Install the dependencies: pip install -r requirements.txt
+1. Clone the repository: git clone https
+2. Navigate to the repository directory
+3. Install the dependencies
+
+```
+git clone 
+cd iwslt24_que_esp
+pip install -r requirements.txt
+```
 
 ## Usage
 
